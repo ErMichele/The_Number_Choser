@@ -18,9 +18,11 @@ int main() {
 
     printf("Per cominciare scrivere il range di numeri in cui si trova il numero scelto da voi, da 1 a? ");
     scanf("%d", &MAX);
-    Sleep(500);
-    printf("Tutto pronto!\n");
-
+    Sleep(1000);
+    printf("In base ai tentativi, rispondere adeguatamente con maggiore, minore o giusto.");
+    Sleep(1500);
+    printf("Tutto pronto per l'inizio!\n");
+    Sleep (900);
     srand(time(0));
 
     do {
